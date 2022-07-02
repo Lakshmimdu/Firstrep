@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="sub" value="yyyy"/>
+  <parameter name="Email" value="lakshmimdu99@gmail.com"/>
+  <parameter name="FirstName" value="Lakshmi"/>
+  <parameter name="dob" value="01 Oct 1999"/>
+  <parameter name="currentadress" value="6a,kamarajar1st,pethaniyapuram"/>
+  <parameter name="LastName" value="P"/>
+  <parameter name="phno" value="9092006530"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="org.toolsexe.ToolsLoginExe">
+        <methods>
+          <include name="radio"/>
+          <include name="sub" invocation-numbers="0"/>
+          <include name="hobbies"/>
+          <include name="signIn"/>
+        </methods>
+      </class> <!-- org.toolsexe.ToolsLoginExe -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
